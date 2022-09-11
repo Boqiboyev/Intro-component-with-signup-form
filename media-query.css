@@ -1,0 +1,49 @@
+@media only screen and (min-width: 768px){
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10rem;
+  }
+  .heading {
+    margin-top: -120px;
+    padding-left: 90px;
+    width: 550px;
+  }
+  .heading h1 {
+    font-size: 38px;
+    min-width: 350px;
+    margin: 20px 0px;
+  }
+  .heading p {
+    font-size: 17px;
+    width: 530px;
+    text-align: start; 
+    margin-left: 15px;
+  }
+  form {
+    width: 500px;
+    padding: 30px 0px 30px;
+    margin-right: 100px;
+  }
+  form input {
+    margin-bottom: 17px;
+  }
+  form input, form button {
+    width: 410px;
+  }
+  .offer {
+    width: 100%;
+    padding: 20px;
+    width: 500px;
+
+  }
+  .offer p {
+    width: 100%;
+    text-align: center;
+  }
+  .terms {
+    width: 100%;
+  }
+}

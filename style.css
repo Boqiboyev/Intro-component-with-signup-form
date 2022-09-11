@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%) ;
+  background-blend-mode: multiply;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  padding: 80px 0 45px;
+}
+
+.heading h1, .heading p {
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.heading h1 {
+  width: 270px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.heading p {
+  width: 300px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.offer {
+  width: 280px;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  box-shadow: 0px 7px rgba(0, 0, 0, 0.176);
+  margin-bottom: 25px;
+  padding: 15px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.offer p {
+  width: 180px;
+  margin-inline: auto;
+}
+
+.offer span {
+  color: #fff;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 0;
+  margin-bottom: 50px;
+  box-shadow: 0px 8px hsl(0, 0%, 0%, 0.176);
+}
+
+.formInput{
+  margin: 0 auto;
+  font-size: 17px;
+  letter-spacing: 1px;
+  position: relative;
+
+}
+
+input::placeholder{
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: rgb(113, 113, 113);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid;
+}
+
+input {
+  font-size: 19px;
+  font-weight: 600;
+  color: rgb(62, 62, 62);
+}
+
+img {
+  position: absolute;
+  top: 28px;
+  right: 10px;
+  height: 18px;
+  opacity: 0;
+}
+
+form input, button {
+  width: 235px;
+  margin: 10px auto;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid hsl(248, 32%, 49%);
+  letter-spacing: 1px;
+}
+
+form.error input::placeholder {
+  color: hsl(0, 100%, 74%);
+}
+
+#form.error input {
+  color: hsl(0, 100%, 74%);
+}
+
+form button {
+  padding: 17px 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  border: none;
+  background-color: hsl(154, 59%, 51%);
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color .30s ease, border-bottom .30s ease;
+  border-bottom: 5px solid hsl(154, 99%, 40%);
+}
+
+form button:hover {
+  background-color: hsla(154, 59%, 51%, 0.839);
+  border-bottom: 5px solid hsla(154, 59%, 51%, 0);
+}
+
+.terms {
+  font-size: 11px;
+  width: 240px;
+  text-align: center;
+  margin: 0 auto 10px;
+  line-height: 2;
+  color: hsl(246, 25%, 77%);
+}
+
+.terms span {
+  font-weight: 700;
+}
+
+.terms span a {
+  color: hsl(0, 100%, 74%);
+  text-decoration: none;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
+
+
+form .formInput p {
+  margin-top: -7px;
+  text-align: end;
+  font-size: 10px;
+  color:hsl(0, 100%, 74%);
+  font-weight: 600;
+}
